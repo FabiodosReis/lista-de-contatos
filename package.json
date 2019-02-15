@@ -4,7 +4,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "react-devtool": "react-devtools"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -14,7 +15,8 @@
     "react-navigation": "^3.2.3"
   },
   "devDependencies": {
-    "babel-preset-expo": "^5.0.0"
+    "babel-preset-expo": "^5.0.0",
+    "react-devtools": "^3.6.0"
   },
   "private": true
 }

@@ -5,12 +5,14 @@ import capitalizeFirstLetter from '../util/capitalizeFirstLetter';
 
 const PeopleListItems = (props) => {
 
-    const {people} = props;
+    const {people, navigateToPeopleDetail} = props;
     const {title, first, last} = people.name;
     const {thumbnail} = people.picture;   
     
     return (
-        <TouchableOpacity onPress={() => console.log("clicou",first)}>
+        <TouchableOpacity onPress={() => {
+            navigateToPeopleDetail({ people })
+        }}>
             <View style={styles.line}>
                 <Image style={styles.avatar} source={{uri: thumbnail}}/>
                 <Text style={styles.lineText}>
