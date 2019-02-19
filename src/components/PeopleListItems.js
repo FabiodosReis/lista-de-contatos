@@ -30,7 +30,7 @@ const styles =  StyleSheet.create({
         borderBottomWidth: 1,
         borderBottomColor: '#BBB',
         flexDirection: 'row',
-        alignItems: 'center'
+        alignItems: 'center'        
     },
 
     lineText: {
